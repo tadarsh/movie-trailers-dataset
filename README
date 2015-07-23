@@ -1,0 +1,41 @@
+Trailers-Dataset
+----------------
+
+We provide links to 474 YouTube trailers [youtube_ids.txt] of American movies [movies_list.txt] released in 2010-2014. 
+
+We provide the following metadata of the movie, (extracted from IMDb), 
+    - Genre (Binary Indicator - 10 classes) [metadata/Genre.txt]
+        Adventure
+        Action
+        Comedy
+        Crime
+        Drama
+        Horror
+        Mystery
+        Romance 
+        Sci-Fi
+        Thriller
+    - Sequel [metadata/Sequel.txt]
+    - MPAA Ratings (Binary Indicator - 4 ratings) [metadata/MPAA_Ratings.txt]
+        G
+        PG
+        PG-13
+        R
+    - Runtime [metadata/Runtime.txt]
+    - Release (Binary Indicator - 4 periods) [metadata/Release_Period.txt]
+        Christmas
+        Summer
+        Easter
+        Other
+    - Actor Experience (Number of movies - main actor - prior to movie release) [metadata/Actor_Experience.txt]
+    - Screens (Screens released in, in the first week) [metadata/Screens.txt]
+    - Budget (Estimated budget) [metadata/Sequel.txt]
+
+We also provide the Opening Weekend Gross (US) of the movies. [Opening_Weekend_Gross.txt]
+
+License
+-------
+
+    
+
+
